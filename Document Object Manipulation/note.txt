@@ -1,0 +1,118 @@
+var usia = 30
+const x = 1 //perbedaan const itu dia tidak bisa diubah nilainya
+let y = 2 // hampir sama dengan var
+
+
+
+let usia = prompt('Berapa usia kamu?')
+alert('Usia anda adalah ' + usia)
+
+
+// alert('Heyyy')
+let nama = 'adam zaky'
+let usia = 30
+let tinggiBadan = 168.5
+let beratBadan
+let pacar = null
+
+beratBadan = 56
+
+if(pacar == null){
+    pacar = 'belum punya'
+}else{
+    pacar = 'udah punya'
+}
+
+// switch(pacar) {
+//     case 1:
+//         pacar = 'punya 1 aja'
+//     break
+//     case 2 :
+//         pacar = 'udah punya pacar 2 playboy'
+//     break
+//     default:
+//         pacar = "gapunya"
+//     break
+// }
+
+let saldoAwal = 5000
+let saldoTambahan = 8000
+const hutang = 2000
+const saldoAkhir = saldoAwal + saldoTambahan - hutang
+
+alert(`nama saya ${nama} dan usia saya ${usia} lalu tinggi badan saya ${tinggiBadan} 
+berat badan saya ${beratBadan} dan pacar saya ${pacar} `)
+
+alert(`saldo awal gua ${saldoAwal} dan saldo tambahasn saya adalah ${saldoTambahan}
+ dan sya punya hutang ${hutang} jadi total saldo saya ${saldoAkhir}`)
+
+
+
+
+
+ let namaGuru = ['jodi', 'bungah', 'ramdan']
+namaGuru.push(
+    prompt('masukan nama baru = ')
+)
+for(let i = 1; i < namaGuru.length; i++){
+    console.log(namaGuru[i])
+}
+
+
+
+
+let i = 0
+while(i <10) {
+    i++
+    console.log('adam zaky')
+}
+
+
+do {
+    i++
+    console.log('adam zaky')
+}while(i < 10)
+
+
+
+
+
+SOAL 1 BUATKAN TOTAL SALDO DENGAN INPUTAN USER
+let saldoAwal = Number(prompt('masukan saldo awal'))
+let saldoTambahan = Number(prompt('masukan saldo Tambahan'))
+let hutang = Number(prompt('masukan hutang'))
+let saldoAkhir = saldoAwal + saldoTambahan - hutang
+
+
+alert(`Saldo akhir saya adalah = ${saldoAkhir}`)
+
+
+SOAL 2 TENTKAN HARI DARI TANGGAL YANG ADA DI PC
+
+
+
+
+
+
+
+
+
+
+
+const body = document.body
+
+body.append('Hello world')
+
+const h1 = document.createElement('h1')
+h1.textContent = 'anjay pakai js'
+
+const namaSaya = document.createElement('p')
+namaSaya.innerHTML = '<marquee>Adam Zaky</marquee>' // bisa pakai tag html
+
+const namaKamu = document.createElement('h2')
+namaKamu.innerText = 'Kagenou'
+
+
+body.append(h1)
+body.append(namaSaya)
+body.append(namaKamu)

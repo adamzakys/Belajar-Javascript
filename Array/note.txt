@@ -1,0 +1,27 @@
+ // 
+
+const arraySaya = ['🥑', '🍑', '🍐', '🍉', '🍊']
+const newArraySaya = Array.from(arraySaya)
+
+newArraySaya[0] = '👌'
+
+console.log(arraySaya)
+console.log(newArraySaya)
+
+
+
+const arraySaya = ['🥑', '🍑', '🍐', '🍉', '🍊']
+const arrayKamu = ['muka', 'kaki', 'tangan']
+
+const mergeArray = arraySaya.concat(arrayKamu)
+
+console.log(mergeArray)
+
+// 
+
+const arraySaya = ['🥑', '🍑', '🍐', '🍉', '🍊']
+const arrayKamu = ['muka', 'kaki', 'tangan']
+
+const mergeArray = arraySaya.concat(arrayKamu)
+
+mergeArray.map((value, index) => console.log(value, index))
